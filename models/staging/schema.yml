@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: stg_data
+    database: "{{('dbt_db')}}"
+    schema: dbt_sc
+
+    tables:
+      - name: customers
+      - name: orders
+
